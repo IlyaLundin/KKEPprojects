@@ -55,13 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="WindowHelp.xaml.cs">
+    <Compile Include="Windows\WindowHelp.xaml.cs">
       <DependentUpon>WindowHelp.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WindowMyNotes.xaml.cs">
+    <Compile Include="Windows\WindowMyNotes.xaml.cs">
       <DependentUpon>WindowMyNotes.xaml</DependentUpon>
     </Compile>
-    <Page Include="WindowWork.xaml">
+    <Page Include="Windows\WindowWork.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -69,15 +69,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WindowWork.xaml.cs">
+    <Compile Include="Windows\WindowWork.xaml.cs">
       <DependentUpon>WindowWork.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="WindowHelp.xaml">
+    <Page Include="Windows\WindowHelp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WindowMyNotes.xaml">
+    <Page Include="Windows\WindowMyNotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

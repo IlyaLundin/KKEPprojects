@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalendarNotes"
         mc:Ignorable="d"
-        Title="WindowWork" Height="450" Width="800" Icon="/Resources/feather1.ico">
+        Title="WindowWork" Height="450" Width="800" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>
@@ -14,12 +14,14 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Style="{StaticResource ColumnMain}"></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <DatePicker x:Name="PickedDate"  Height="30" Width="180" Grid.Row="0" Grid.Column="1" SelectedDateFormat="Long"></DatePicker>
         <Button x:Name="ButtonHelp" Style="{StaticResource ButtonMain}" Grid.Row="0" Grid.Column="2" Click="ButtonHelp_Click">Справка</Button>
-        <TextBox x:Name="TextBoxNote"  Height="200" Width="300" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"></TextBox>
+        <ScrollViewer Height="200" Grid.Row="1" Grid.Column="1">
+        <TextBox x:Name="TextBoxNote" Height="Auto" Width="300"  TextWrapping="Wrap"></TextBox>
+        </ScrollViewer>
         <Button x:Name="ButtonOpenNotes" Style="{StaticResource ButtonMain}" Grid.Row="3" Grid.Column="0" Click="ButtonOpenNotes_Click">Открыть заметки</Button>
         <Button x:Name="ButtonMakeNote" Style="{StaticResource ButtonMain}" Grid.Row="3" Grid.Column="1" Click="ButtonMakeNote_Click">Создать заметку</Button>
         <Button x:Name="ButtonExit" Style="{StaticResource ButtonMain}" Grid.Row="3" Grid.Column="2" Click="ButtonExit_Click">Выйти</Button>

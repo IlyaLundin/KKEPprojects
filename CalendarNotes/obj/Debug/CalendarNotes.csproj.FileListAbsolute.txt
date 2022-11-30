@@ -12,10 +12,10 @@ C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\CalendarNotes.csproj.CoreCompileInputs.cache
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\CalendarNotes.exe
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\CalendarNotes.pdb
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowWork.g.cs
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowHelp.g.cs
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowMyNotes.g.cs
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\App.baml
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowWork.baml
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowHelp.baml
-C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\WindowMyNotes.baml
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowWork.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowHelp.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowMyNotes.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowWork.baml
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowHelp.baml
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowMyNotes.baml

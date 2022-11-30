@@ -42,6 +42,7 @@ namespace CalendarNotes
                     writerFirst.WriteLine(" ");
                     writerFirst.Close();
                 }
+                MessageBox.Show("Данные успешно внесены!","Информация", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
@@ -76,7 +77,7 @@ namespace CalendarNotes
         {
             WindowHelp wHelp = new WindowHelp();
             wHelp.Owner = this;
-            wHelp.Show();
+            wHelp.ShowDialog();
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalendarNotes"
         mc:Ignorable="d"
-        Title="WindowHelp" Height="400" Width="450" Icon="/Resources/feather1.ico">
+        Title="WindowHelp" Height="400" Width="450" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
     <StackPanel>
         <TextBlock Style="{StaticResource TextBlockMain}">Разработчик программы: Лундин Илья 
          <LineBreak /> Разработано в рамках индивидуального проекта по ОАИП 31.03.2022.
