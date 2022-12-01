@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalendarNotes"
         mc:Ignorable="d"
-        Title="WindowWork" Height="450" Width="800" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
+        Title="Рабочее окно" Height="450" Width="800" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>

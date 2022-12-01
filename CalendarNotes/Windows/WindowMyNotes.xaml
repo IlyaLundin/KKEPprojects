@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalendarNotes"
         mc:Ignorable="d"
-        Title="WindowMyNotes" Height="420" Width="650" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
+        Title="Мои заметки" Height="420" Width="650" Icon="/Resources/feather1.ico" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="12*"></ColumnDefinition>

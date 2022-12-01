@@ -19,3 +19,8 @@ C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowWork.baml
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowHelp.baml
 C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowMyNotes.baml
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowAuthorisation.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\Windows\WindowAuthorisation.baml
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\UserControlEye.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\erebo\OneDrive\Рабочий стол\Проекты\CalendarNotes\obj\Debug\UserControlEye.baml

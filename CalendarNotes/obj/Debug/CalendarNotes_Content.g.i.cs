@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/feather1.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/imgonline-com-ua-resize-pvmlz7dkaa.jpg")]
 
 

@@ -21,19 +21,25 @@ namespace CalendarNotes
     /// </summary>
     public partial class WindowWork : Window
     {
-        public string source = "../../Resources/MyNotes.txt";
+        public string source = "../../Resources/MyNotes.txt"; //Файл для записи и чтения заметок
         public WindowWork()
         {
             InitializeComponent();
-            PickedDate.SelectedDate = DateTime.Today;
+            PickedDate.SelectedDate = DateTime.Today; //Установка сегодняшней даты по умолчанию
             
         }
-
+        /// <summary>
+        /// Метод записи в файл
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonMakeNote_Click(object sender, RoutedEventArgs e)
         {
-            if (TextBoxNote.Text != null && TextBoxNote.Text != "")
+            if (TextBoxNote.Text != null && TextBoxNote.Text != "") //Проверка на заполнение поля
             {
-                
+                /* Блок записи в файл
+                 * Сначала вызов записи в файл с сохранением,
+                   затем запись выбранной даты и заметки */
                 using (StreamWriter writerFirst = new StreamWriter(source,true))
                 {
 
@@ -49,10 +55,14 @@ namespace CalendarNotes
                 MessageBox.Show("Не все данные внесены!", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-
+        /// <summary>
+        /// Метод открытия заметок
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonOpenNotes_Click(object sender, RoutedEventArgs e)
         {
-            using (StreamReader readerFirst = new StreamReader(source, System.Text.Encoding.UTF8))
+            using (StreamReader readerFirst = new StreamReader(source, System.Text.Encoding.UTF8)) //Вызов чтения из файла
             {
                 string notes;
                 var resultNote = new StringBuilder();
@@ -72,7 +82,11 @@ namespace CalendarNotes
         {
             System.Windows.Application.Current.Shutdown();
         }
-
+        /// <summary>
+        /// Метод вызова справки
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonHelp_Click(object sender, RoutedEventArgs e)
         {
             WindowHelp wHelp = new WindowHelp();
